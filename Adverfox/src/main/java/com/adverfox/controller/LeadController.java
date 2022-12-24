@@ -19,6 +19,7 @@ public class LeadController {
 	
 	@RequestMapping("/createLead")
 	public String createNewLead() {
+		int a = 1;
 		return "create_new_lead";
 	}
 	
